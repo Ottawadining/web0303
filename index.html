@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ottawa's Top 50 Restaurants 2026 — The Definitive List</title>
+  <meta name="description" content="The definitive guide to Ottawa's 50 best restaurants in 2026. From Michelin-level tasting menus to beloved neighbourhood spots, this is the list Ottawa eats by." />
+  <meta name="keywords" content="Ottawa top 50 restaurants, best restaurants Ottawa 2026, Ottawa restaurant guide, Ottawa dining, Ottawa fine dining, Ottawa food scene, top restaurants Ottawa, Ottawa restaurant list 2026" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Ottawa Top 50" />
+  <meta property="og:title" content="Ottawa's Top 50 Restaurants 2026 — The Definitive List" />
+  <meta property="og:description" content="The definitive guide to Ottawa's 50 best restaurants in 2026. From Michelin-level tasting menus to beloved neighbourhood spots, this is the list Ottawa eats by." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ottawatop50.com" />
+  <meta property="og:image" content="https://ottawatop50.com/hero.jpg" />
+  <meta property="og:site_name" content="Ottawa Top 50" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ottawa's Top 50 Restaurants 2026 — The Definitive List" />
+  <meta name="twitter:description" content="The definitive guide to Ottawa's 50 best restaurants in 2026." />
+  <meta name="twitter:image" content="https://ottawatop50.com/hero.jpg" />
+  <link rel="canonical" href="https://ottawatop50.com" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Ottawa's Top 50 Restaurants 2026",
+    "description": "The definitive guide to Ottawa's 50 best restaurants in 2026.",
+    "url": "https://ottawatop50.com",
+    "numberOfItems": 50,
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Ottawa Top 50",
+      "url": "https://ottawatop50.com"
+    }
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #b8922a;
+      --gold-light: #d4aa50;
+      --bg: #faf8f4;
+      --white: #ffffff;
+      --border: #e5dfd4;
+      --text: #0f0e0d;
+      --muted: #7a7268;
+      --max: 800px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    /* HERO */
+    .hero-image {
+      width: 100%;
+      display: block;
+    }
+
+    .collage-image {
+      width: 100%;
+      display: block;
+    }
+
+    /* HERO IMAGE */
+    .hero-image {
+      width: 100%;
+      max-height: 460px;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.9);
+    }
+
+    /* LIST SECTION */
+    .list-section {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 40px 80px;
+    }
+
+    .list-heading {
+      margin-bottom: 48px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid var(--text);
+    }
+
+    .list-heading-text {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(28px, 4vw, 38px);
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .list-heading-year {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+    }
+
+    /* ENTRY */
+    .entry {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.2s;
+      padding: 6px 0;
+    }
+
+    .entry:last-child { border-bottom: none; }
+
+    .entry:hover {
+      background: rgba(184, 146, 42, 0.05);
+    }
+
+    .entry-number {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(64px, 10vw, 96px);
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      padding: 16px 0 12px;
+      display: flex;
+      align-items: center;
+    }
+
+    .entry-content {
+      padding: 20px 0 20px 8px;
+      border-left: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .entry-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.1;
+      margin-bottom: 5px;
+    }
+
+    .entry-address {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.03em;
+      margin-bottom: 3px;
+    }
+
+    .entry-url {
+      font-size: 11px;
+      color: var(--gold);
+      font-style: italic;
+      letter-spacing: 0.02em;
+    }
+
+    /* CLOSING */
+    .closing {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 40px 40px 56px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .closing p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.8;
+      margin-bottom: 24px;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .back-top {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      padding: 10px 28px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .back-top:hover {
+      background: var(--gold);
+      color: white;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--text);
+      padding: 40px;
+    }
+
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-name {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .footer-copy {
+      font-size: 11px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 0 20px; }
+      .hero-inner { flex-direction: column; align-items: flex-start; gap: 0; }
+      .hero-50 { font-size: 80px; align-self: flex-end; margin-top: -20px; }
+      .list-section { padding: 40px 20px 60px; }
+      .entry { grid-template-columns: 72px 1fr; }
+      .entry-number { font-size: 52px; }
+      footer { padding: 32px 20px; }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <img class="hero-image" src="hero.jpg" alt="Ottawa's Top 50 Restaurants 2026" />
+  <img class="collage-image" src="collage.jpg" alt="Ottawa's top restaurant photos" />
+
+  <div class="list-section">
+
+    <div class="list-heading">
+      <span class="list-heading-text">The 2026 List</span>
+      <span class="list-heading-year">Ottawa · Annual Edition</span>
+    </div>
+
+    <a class="entry" href="https://www.atelierrestaurant.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">01</div>
+      <div class="entry-content">
+        <div class="entry-name">Atelier</div>
+        <div class="entry-address">540 Rochester St</div>
+        <div class="entry-url">atelierrestaurant.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.exploretock.com/antheia" target="_blank" rel="noopener">
+      <div class="entry-number">02</div>
+      <div class="entry-content">
+        <div class="entry-name">Antheia</div>
+        <div class="entry-address">861 Somerset St W</div>
+        <div class="entry-url">exploretock.com/antheia</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.stofarestaurant.com/" target="_blank" rel="noopener">
+      <div class="entry-number">03</div>
+      <div class="entry-content">
+        <div class="entry-name">Stofa</div>
+        <div class="entry-address">1356 Wellington St W</div>
+        <div class="entry-url">stofarestaurant.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://raphaelperuviancuisine.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">04</div>
+      <div class="entry-content">
+        <div class="entry-name">Raphaël</div>
+        <div class="entry-address">361 Elgin St</div>
+        <div class="entry-url">raphaelperuviancuisine.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.supplyanddemandfoods.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">05</div>
+      <div class="entry-content">
+        <div class="entry-name">Supply &amp; Demand</div>
+        <div class="entry-address">1335 Wellington St W</div>
+        <div class="entry-url">supplyanddemandfoods.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.gitanes.co/" target="_blank" rel="noopener">
+      <div class="entry-number">06</div>
+      <div class="entry-content">
+        <div class="entry-name">Gitanes</div>
+        <div class="entry-address">361 Elgin St, Unit 6</div>
+        <div class="entry-url">gitanes.co</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.faunaottawa.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">07</div>
+      <div class="entry-content">
+        <div class="entry-name">Fauna</div>
+        <div class="entry-address">425 Bank St</div>
+        <div class="entry-url">faunaottawa.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://dineriviera.com/" target="_blank" rel="noopener">
+      <div class="entry-number">08</div>
+      <div class="entry-content">
+        <div class="entry-name">Riviera</div>
+        <div class="entry-address">66 Sparks St</div>
+        <div class="entry-url">dineriviera.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://towncitizen.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">09</div>
+      <div class="entry-content">
+        <div class="entry-name">Town</div>
+        <div class="entry-address">296 Elgin St</div>
+        <div class="entry-url">towncitizen.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://aiana.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">10</div>
+      <div class="entry-content">
+        <div class="entry-name">Aiana</div>
+        <div class="entry-address">50 O'Connor St</div>
+        <div class="entry-url">aiana.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.beckta.com/" target="_blank" rel="noopener">
+      <div class="entry-number">11</div>
+      <div class="entry-content">
+        <div class="entry-name">Beckta</div>
+        <div class="entry-address">150 Elgin St</div>
+        <div class="entry-url">beckta.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://lestlaurent.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">12</div>
+      <div class="entry-content">
+        <div class="entry-name">Le St. Laurent</div>
+        <div class="entry-address">460 St-Laurent Blvd</div>
+        <div class="entry-url">lestlaurent.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://northandnavy.com/" target="_blank" rel="noopener">
+      <div class="entry-number">13</div>
+      <div class="entry-content">
+        <div class="entry-name">North &amp; Navy</div>
+        <div class="entry-address">226 Nepean St</div>
+        <div class="entry-url">northandnavy.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.lepoissonbleu.net/" target="_blank" rel="noopener">
+      <div class="entry-number">14</div>
+      <div class="entry-content">
+        <div class="entry-name">Le Poisson Bleu</div>
+        <div class="entry-address">610 Somerset St W</div>
+        <div class="entry-url">lepoissonbleu.net</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.signaturesrestaurant.com/" target="_blank" rel="noopener">
+      <div class="entry-number">15</div>
+      <div class="entry-content">
+        <div class="entry-name">Signatures</div>
+        <div class="entry-address">453 Laurier Ave E</div>
+        <div class="entry-url">signaturesrestaurant.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.buvettedaphnee.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">16</div>
+      <div class="entry-content">
+        <div class="entry-name">Buvette Daphnée</div>
+        <div class="entry-address">11 William St</div>
+        <div class="entry-url">buvettedaphnee.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://restaurantarlo.com/" target="_blank" rel="noopener">
+      <div class="entry-number">17</div>
+      <div class="entry-content">
+        <div class="entry-name">Arlo</div>
+        <div class="entry-address">585 Somerset St W</div>
+        <div class="entry-url">restaurantarlo.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://coconutlagoon.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">18</div>
+      <div class="entry-content">
+        <div class="entry-name">Coconut Lagoon</div>
+        <div class="entry-address">853 St-Laurent Blvd</div>
+        <div class="entry-url">coconutlagoon.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.dreamlandcafe.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">19</div>
+      <div class="entry-content">
+        <div class="entry-name">Dreamland Café</div>
+        <div class="entry-address">262 Preston St</div>
+        <div class="entry-url">dreamlandcafe.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.thesocakitchen.com/" target="_blank" rel="noopener">
+      <div class="entry-number">20</div>
+      <div class="entry-content">
+        <div class="entry-name">Soca</div>
+        <div class="entry-address">224 Beechwood Ave</div>
+        <div class="entry-url">thesocakitchen.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.tomorestaurant.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">21</div>
+      <div class="entry-content">
+        <div class="entry-name">Tomo</div>
+        <div class="entry-address">109 Clarence St</div>
+        <div class="entry-url">tomorestaurant.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.perchottawa.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">22</div>
+      <div class="entry-content">
+        <div class="entry-name">Perch</div>
+        <div class="entry-address">300 Preston St</div>
+        <div class="entry-url">perchottawa.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.restaurant18.com/" target="_blank" rel="noopener">
+      <div class="entry-number">23</div>
+      <div class="entry-content">
+        <div class="entry-name">Eighteen</div>
+        <div class="entry-address">18 York St</div>
+        <div class="entry-url">restaurant18.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://cantinagia.com/" target="_blank" rel="noopener">
+      <div class="entry-number">24</div>
+      <div class="entry-content">
+        <div class="entry-name">Cantina Gia</div>
+        <div class="entry-address">749 Bank St</div>
+        <div class="entry-url">cantinagia.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.absinthecafe.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">25</div>
+      <div class="entry-content">
+        <div class="entry-name">Absinthe</div>
+        <div class="entry-address">1208 Wellington St W</div>
+        <div class="entry-url">absinthecafe.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://nextfood.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">26</div>
+      <div class="entry-content">
+        <div class="entry-name">Next</div>
+        <div class="entry-address">6400 Hazeldean Rd, Stittsville</div>
+        <div class="entry-url">nextfood.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://matiottawa.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">27</div>
+      <div class="entry-content">
+        <div class="entry-name">Mati</div>
+        <div class="entry-address">428 Preston St</div>
+        <div class="entry-url">matiottawa.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://thewhalesbone.com/" target="_blank" rel="noopener">
+      <div class="entry-number">28</div>
+      <div class="entry-content">
+        <div class="entry-name">Whalesbone</div>
+        <div class="entry-address">430 Bank St</div>
+        <div class="entry-url">thewhalesbone.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://gezelligdining.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">29</div>
+      <div class="entry-content">
+        <div class="entry-name">Gezellig</div>
+        <div class="entry-address">340 Richmond Rd</div>
+        <div class="entry-url">gezelligdining.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.sidedoorrestaurant.com/" target="_blank" rel="noopener">
+      <div class="entry-number">30</div>
+      <div class="entry-content">
+        <div class="entry-name">Sidedoor</div>
+        <div class="entry-address">18 York St</div>
+        <div class="entry-url">sidedoorrestaurant.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://nac-cna.ca/en/1elgin" target="_blank" rel="noopener">
+      <div class="entry-number">31</div>
+      <div class="entry-content">
+        <div class="entry-name">1 Elgin</div>
+        <div class="entry-address">1 Elgin St</div>
+        <div class="entry-url">nac-cna.ca/en/1elgin</div>
+      </div>
+    </a>
+
+    <a class="entry" href="http://www.alirangkorean.com/" target="_blank" rel="noopener">
+      <div class="entry-number">32</div>
+      <div class="entry-content">
+        <div class="entry-name">Alirang</div>
+        <div class="entry-address">498 Somerset St W</div>
+        <div class="entry-url">alirangkorean.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://inhauscooking.com/bistro/" target="_blank" rel="noopener">
+      <div class="entry-number">33</div>
+      <div class="entry-content">
+        <div class="entry-name">Bistro by Inhaus Cooking</div>
+        <div class="entry-address">430 Hazeldean Rd, Unit 6</div>
+        <div class="entry-url">inhauscooking.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.facebook.com/occo.kitchen/" target="_blank" rel="noopener">
+      <div class="entry-number">34</div>
+      <div class="entry-content">
+        <div class="entry-name">Occo Kitchen</div>
+        <div class="entry-address">4240 Innes Rd</div>
+        <div class="entry-url">facebook.com/occo.kitchen</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://ekbar.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">35</div>
+      <div class="entry-content">
+        <div class="entry-name">Ek Bar</div>
+        <div class="entry-address">225 Preston St</div>
+        <div class="entry-url">ekbar.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://harmonssteakhouse.com/" target="_blank" rel="noopener">
+      <div class="entry-number">36</div>
+      <div class="entry-content">
+        <div class="entry-name">Harmons</div>
+        <div class="entry-address">283 Elgin St</div>
+        <div class="entry-url">harmonssteakhouse.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://cornerpeach.com/" target="_blank" rel="noopener">
+      <div class="entry-number">37</div>
+      <div class="entry-content">
+        <div class="entry-name">Corner Peach</div>
+        <div class="entry-address">802 Somerset St W</div>
+        <div class="entry-url">cornerpeach.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.emberottawa.com/" target="_blank" rel="noopener">
+      <div class="entry-number">38</div>
+      <div class="entry-content">
+        <div class="entry-name">Ember</div>
+        <div class="entry-address">92 Clarence St</div>
+        <div class="entry-url">emberottawa.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.aylassocial.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">39</div>
+      <div class="entry-content">
+        <div class="entry-name">Ayla's Social Kitchen</div>
+        <div class="entry-address">338 Preston St</div>
+        <div class="entry-url">aylassocial.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.facebook.com/tavernatthegallery/" target="_blank" rel="noopener">
+      <div class="entry-number">40</div>
+      <div class="entry-content">
+        <div class="entry-name">Tavern at the Gallery</div>
+        <div class="entry-address">380 Sussex Dr</div>
+        <div class="entry-url">National Gallery of Canada</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://eatgiuliapizza.com/" target="_blank" rel="noopener">
+      <div class="entry-number">41</div>
+      <div class="entry-content">
+        <div class="entry-name">Giulia</div>
+        <div class="entry-address">61 York St</div>
+        <div class="entry-url">eatgiuliapizza.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.facebook.com/wilfandadas/" target="_blank" rel="noopener">
+      <div class="entry-number">42</div>
+      <div class="entry-content">
+        <div class="entry-name">Wilf and Ada's</div>
+        <div class="entry-address">510 Bank St</div>
+        <div class="entry-url">facebook.com/wilfandadas</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.union613.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">43</div>
+      <div class="entry-content">
+        <div class="entry-name">Union 613</div>
+        <div class="entry-address">315 Somerset St W</div>
+        <div class="entry-url">union613.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.manxpub.com/" target="_blank" rel="noopener">
+      <div class="entry-number">44</div>
+      <div class="entry-content">
+        <div class="entry-name">The Manx</div>
+        <div class="entry-address">370 Elgin St</div>
+        <div class="entry-url">manxpub.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.parlourplace.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">45</div>
+      <div class="entry-content">
+        <div class="entry-name">Parlour</div>
+        <div class="entry-address">1319 Wellington St W</div>
+        <div class="entry-url">parlourplace.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://florahallbrewing.ca/" target="_blank" rel="noopener">
+      <div class="entry-number">46</div>
+      <div class="entry-content">
+        <div class="entry-name">Flora Hall</div>
+        <div class="entry-address">37 Flora St</div>
+        <div class="entry-url">florahallbrewing.ca</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://petitbillsbistro.com/" target="_blank" rel="noopener">
+      <div class="entry-number">47</div>
+      <div class="entry-content">
+        <div class="entry-name">Petit Bill's Bistro</div>
+        <div class="entry-address">1293 Wellington St W</div>
+        <div class="entry-url">petitbillsbistro.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.facebook.com/ChesterfieldsGastroDiner/" target="_blank" rel="noopener">
+      <div class="entry-number">48</div>
+      <div class="entry-content">
+        <div class="entry-name">Chesterfield's Gastro Diner</div>
+        <div class="entry-address">1433 Wellington St W</div>
+        <div class="entry-url">facebook.com/ChesterfieldsGastroDiner</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.legermainhotels.com/en/ottawa/dining/" target="_blank" rel="noopener">
+      <div class="entry-number">49</div>
+      <div class="entry-content">
+        <div class="entry-name">Norca</div>
+        <div class="entry-address">Hôtel Le Germain, 30 Daly Ave</div>
+        <div class="entry-url">legermainhotels.com</div>
+      </div>
+    </a>
+
+    <a class="entry" href="https://www.fairmont.com/chateau-laurier-ottawa/dining/" target="_blank" rel="noopener">
+      <div class="entry-number">50</div>
+      <div class="entry-content">
+        <div class="entry-name">Zoe's</div>
+        <div class="entry-address">Fairmont Château Laurier, 1 Rideau St</div>
+        <div class="entry-url">fairmont.com/chateau-laurier-ottawa</div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="closing">
+    <p>This list is your starting point for exploring Ottawa's top restaurants. Whether you're planning a special night out or just curious about the city's food scene, these 50 spots represent the best of Ottawa dining.</p>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Ottawa's Top 50 Restaurants</span>
+      <span class="footer-copy">© 2026 Ottawa Top 50</span>
+    </div>
+  </footer>
+
+</body>
+</html>
